@@ -1,8 +1,11 @@
-def reverse(s):
-    if len(s) == 0:
-        return s
-    else:
-        return reverse(s[1:]) + s[0]
+#exercise5
+def reverse(words):
   
-s = input("type your words that want to reverse: ")
-print (reverse(s))
+  words = words.split()
+  rev_words = []
+  for i in words:
+    rev_words.append(i[::-1])
+  sentence = " ".join(rev_words)
+  print(sentence)
+  
+reverse("hello world")
