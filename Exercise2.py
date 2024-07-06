@@ -8,6 +8,6 @@ def index_power(lst, n):
 
 
 lst = [1, 2, 3, 4]
-n = 2
+n = 3
 num = index_power(lst, n)
 print(num)
