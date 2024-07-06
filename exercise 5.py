@@ -8,4 +8,4 @@ def reverse(words):
   sentence = " ".join(rev_words)
   print(sentence)
   
-reverse("hello world")
+reverse("Hello World")
